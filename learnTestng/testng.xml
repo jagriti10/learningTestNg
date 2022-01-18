@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Browsers Suite">
+    <test verbose="2" preserve-order="true" name="/Users/jagriti.sharma/IdeaProjects/learnTestng">
+        <classes>
+        <class name = "Browsers.ChromeTest"></class>
+            <class name = "Browsers.EdgeTest"></class>
+            <class name = "Browsers.FirefoxTest"></class>
+            <class name = "Browsers.SafariTest"></class>
+        </classes>
+    </test>
+</suite>
